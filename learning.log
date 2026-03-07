@@ -1,0 +1,21 @@
+# Python for Finance Learning Log
+
+## Environment setup
+- OS: Windows
+- Terminal: CMD
+- Editor: VS Code
+- Python version: 3.12
+- Virtual environment: myvenv
+
+Activation (cmd):
+myvenv\Scripts\activate
+
+Packages installed:
+pip install numpy pandas matplotlib yfinance
+
+## Day 2
+Created:
+stack_test.py
+
+Goal:
+Test scientific Python stack
