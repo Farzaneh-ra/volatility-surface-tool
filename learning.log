@@ -8,10 +8,19 @@
 - Virtual environment: myvenv
 
 Activation (cmd):
-myvenv\Scripts\activate
+myvenv\Scripts\activate.bat
 
 Packages installed:
 pip install numpy pandas matplotlib yfinance
+
+create virtual enviroment :   
+python -m venv myenv
+
+every session, you need to run below codes:
+myenv\Scripts\activate.bat
+python -m pip install --upgrade pip
+pip install numpy pandas yfinance
+pip freeze > requirements.txt
 
 ## Day 2
 Created:
