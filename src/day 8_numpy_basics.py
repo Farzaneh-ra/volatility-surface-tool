@@ -1,0 +1,10 @@
+import numpy as np
+returns = np.random.random(6)
+mean_returns = np.mean(returns)
+std_returns = np.std(returns)
+min_returns = np.min(returns)
+max_returns = np.max(returns)
+print("mean_returns: ", mean_returns)
+print("std_returns: ", std_returns)
+print("min_returns: ", min_returns)
+print("max_returns: ", max_returns)
